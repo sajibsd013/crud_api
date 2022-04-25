@@ -12,4 +12,3 @@ class Events(models.Model):
         db_table = "Events"
 
     
-

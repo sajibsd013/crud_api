@@ -11,6 +11,6 @@ class PageSizePagination(pagination.PageNumberPagination):
 
 
 class EventViewSet(viewsets.ModelViewSet):
-    queryset = Events.objects.all()
+    queryset = Events.objects.all().order_by('-id')
     serializer_class = EventSerializer
     pagination_class = PageSizePagination
