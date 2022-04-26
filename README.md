@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 ##### Change database setting from setting.py as follows and start database server:
 
-```sh
+```py
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
