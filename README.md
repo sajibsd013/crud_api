@@ -2,7 +2,6 @@
 
 
 ## Setup 
-### Setup CRUD API
 
 The first thing to do is to clone the repository:
 
@@ -46,7 +45,7 @@ DATABASES = {
 create database:
 
 ```sh
-(env)$  python manage.py migrate
+(env)$ python manage.py migrate
 ```
 
 
