@@ -14,7 +14,7 @@ Create a virtual environment and activate it:
 
 ```sh
 $ python -m venv myenv
-$ myenv/Scripts/activate
+$ myenv\Scripts\activate
 ```
 
 
