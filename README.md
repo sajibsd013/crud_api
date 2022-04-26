@@ -1,16 +1,16 @@
-# CRUD API 
+<div align="center"><h1>  CRUD API  </h1> </div>
 
 
 ## Setup 
 
-The first thing to do is to clone the repository:
+##### The first thing to do is to clone the repository:
 
 ```sh
 git clone https://github.com/sajibsd013/crud_api.git
 ```
 
 
-Create a virtual environment and activate it:
+##### Create a virtual environment and activate it:
 
 ```sh
 python -m venv myenv
@@ -18,7 +18,7 @@ myenv\Scripts\activate
 ```
 
 
-Then install the dependencies:
+##### Then install the dependencies:
 
 ```sh
 cd crud_api
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 ```
 
 
-Change database setting from setting.py as follows and start database server:
+##### Change database setting from setting.py as follows and start database server:
 
 ```sh
 DATABASES = {
@@ -42,21 +42,21 @@ DATABASES = {
 ```
 
 
-create database:
+##### create database:
 
 ```sh
 python manage.py migrate
 ```
 
 
-create admin username and password:
+##### create admin username and password:
 
 ```sh
 python manage.py createsuperuser
 ```
 
 
-Then run your project:
+##### Then run your project:
 
 ```sh
 python manage.py runserver
